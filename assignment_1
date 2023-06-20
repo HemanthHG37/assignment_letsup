@@ -1,6 +1,12 @@
+// To calculate the area of a rectangle
 function calculateArea() {
   var length = 10;
   var width = 5;
+
+// formula for area of rectangle is length mulitiplied with width 
   var area = length * width;
-  return area;
+
+  console.log(area);
 }
+calculateArea()
+//answer is 10 * 5 = 50
